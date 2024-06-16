@@ -6,7 +6,7 @@
 
 <details>
 <summary> ffmpeg将多个MP4视频合并为一个 </summary>
-1. 新建一个ideo.txt文件，文件内容是需要合并的视频名称
+1. 新建一个vdeos.txt文件，文件内容是需要合并的视频名称
 2. 执行ffmpeg指令
   
 ```bash
