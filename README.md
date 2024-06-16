@@ -13,7 +13,7 @@
 file 'test.mp4'
 file 'test2.mp4'
 
-ffmpeg -f concat -i video.txt -c copy concat.mp4
+ffmpeg -f concat -i videos.txt -c copy concat.mp4
 ```
 
 </details>
