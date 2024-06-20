@@ -48,3 +48,6 @@ gsettings set org.yorba.shotwell.preferences.slideshow delay 1
 gsettings set org.yorba.shotwell.preferences.slideshow show-title true
 gsettings set org.yorba.shotwell.preferences.slideshow transition-delay 0.1
 ```
+
+## Conda激活失效
+source ~/anaconda3/etc/profile.d/conda.sh
