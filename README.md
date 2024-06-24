@@ -1,4 +1,13 @@
 # Ubuntu-Tricks
+
+## python导入其他文件夹中的包
+最好加在文件中的第一行
+```
+import sys
+sys.path.append('/path/to/your/module')
+```
+
+
 <details>
 <summary> How to quick search issues involving yourselves.</summary>
 在GitHub搜索中放入is:issue involves:my-username
