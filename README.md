@@ -1,5 +1,10 @@
 # Ubuntu-Tricks
 
+## pip下载指定镜像地址，
+```
+pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
 ## 使用私钥连接服务器
 - 切到私钥xxx.pem
 - 使用 chmod 400 xxx.pem 修改文件权限
