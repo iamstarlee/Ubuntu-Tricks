@@ -1,5 +1,9 @@
 # Ubuntu-Tricks
 
+## What does 'register_buffer' do in pytorch ?
+> If you have parameters in your model, which should be saved and restored in the state_dict, but not trained by the optimizer, you should register them as buffers.
+Buffers won’t be returned in model.parameters(), so that the optimizer won’t have a change to update them.
+
 ## pip下载指定镜像地址，
 ```
 pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -44,7 +48,7 @@ ffmpeg -f image2 -i %d.jpeg output.mp4
 
 
 ## ffmpeg将视频调整成目标帧率
-ffmpeg -i input1.mp4 -r 30 -vf "fps=30" temp1.mp4
+> ffmpeg -i input1.mp4 -r 30 -vf "fps=30" temp1.mp4
 其中，-r 30 指定目标帧率为 30 帧每秒，并使用 -vf "fps=30" 过滤器确保输出视频的帧率为 30 帧每秒。
 
 ## Sublime 配置 C++11
@@ -69,4 +73,6 @@ gsettings set org.yorba.shotwell.preferences.slideshow transition-delay 0.1
 ```
 
 ## Conda激活失效
+```
 source ~/anaconda3/etc/profile.d/conda.sh
+```
