@@ -29,7 +29,7 @@ Params = 4 \times C_{out}
 ```
 计算量：
 ```math
-FLOPs = 2 \times C_out \times M_{outh} \times M_{outw}
+FLOPs = 2 \times C_{out} \times M_{outh} \times M_{outw}
 ```
 FLOPs为2乘以输出通道数、输入的尺寸。
 
