@@ -9,10 +9,6 @@ Buffers won’t be returned in model.parameters(), so that the optimizer won’t
 pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
-## 使用私钥连接服务器
-- 切到私钥xxx.pem
-- 使用 chmod 400 xxx.pem 修改文件权限
-- 使用 ssh -i xxx.pem 服务器用户名@服务器IP地址连接服务器
 
 ## python导入其他文件夹中的包
 最好加在文件中的第一行
