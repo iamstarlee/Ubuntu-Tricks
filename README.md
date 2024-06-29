@@ -6,7 +6,7 @@ Buffers won’t be returned in model.parameters(), so that the optimizer won’t
 
 ## pip下载指定镜像地址，
 ```
-pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ## 使用私钥连接服务器
