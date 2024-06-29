@@ -1,5 +1,10 @@
 # Ubuntu-Tricks
 
+## Cool profiles of Github
+1. [如何拥有一款有特色的 Github Profile？](https://cloud.tencent.com/developer/article/2047199)
+2. [Github 首页美化教程 —— 美，是第一生产力](https://blog.csdn.net/weixin_50915462/article/details/119988939)
+3. [GitHub美化主页设计（保姆教程 && Markdown表情）](https://blog.csdn.net/qq_44231797/article/details/129251980)
+
 ## What does 'register_buffer' do in pytorch ?
 > If you have parameters in your model, which should be saved and restored in the state_dict, but not trained by the optimizer, you should register them as buffers.
 Buffers won’t be returned in model.parameters(), so that the optimizer won’t have a change to update them.
