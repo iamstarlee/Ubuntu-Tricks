@@ -11,3 +11,6 @@ sudo apt install libfuse2
 ```
 sudo ./xxx.AppImage
 ```
+
+参考：
+[无法在Ubuntu22.04上运行AppImage？这是解决方法](https://linux.cn/article-14619-1.html)
