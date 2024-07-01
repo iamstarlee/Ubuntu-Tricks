@@ -1,3 +1,4 @@
+# 法一
 ```C++
 #include <time.h>
 clock_t start,end;
@@ -11,4 +12,14 @@ CLOCKS_PER_SEC是标准c的time.h头函数中宏定义的一个常数，表示�
 
 ```C++
 cout<<(double)(end-start)/CLOCKS_PER_SEC;
+```
+
+# 法二
+```C++
+auto start = std::chrono::system_clock::now();
+func->execute();
+func->wait();
+auto end = std::chrono::system_clock::now();
+std::chrono::duration<double> exec_seconds = end - start;
+std::cout << "elapsed time: " << exec_seconds.count() << "s" << std::endl;
 ```
