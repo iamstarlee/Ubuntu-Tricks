@@ -1,4 +1,8 @@
-# Ubuntu-Tricks
+## Docker
+If you are running behind proxy then,
+1. add following command or line in /etc/default/docker file,
+2. export http_proxy=<YOUR_PROXY>
+3. service docker restart
 
 ## Cool profiles of Github
 1. [如何拥有一款有特色的 Github Profile？](https://cloud.tencent.com/developer/article/2047199)
