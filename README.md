@@ -1,3 +1,6 @@
+## Nvidia-docker installation
+Daemon.json will be changed, registry-mirrors will be erased, which will cause downloading being too slow.
+
 ## Good tutorial to install opencv in Ubuntu
 [Ubuntu 20.04搭建OpenCV 4.5.0 & C++环境](https://blog.csdn.net/weixin_44796670/article/details/115900538)
 
