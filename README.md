@@ -1,5 +1,4 @@
-## Nvidia-docker installation
-Daemon.json will be changed, registry-mirrors will be erased, which will cause downloading being too slow.
+## [在服务器的docker里 装anacond3深度学习环境的全流程超基础](https://www.cnblogs.com/xiaoli1996/p/15959469.html)
 
 ## Good tutorial to install opencv in Ubuntu
 [Ubuntu 20.04搭建OpenCV 4.5.0 & C++环境](https://blog.csdn.net/weixin_44796670/article/details/115900538)
