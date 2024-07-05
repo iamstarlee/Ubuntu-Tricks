@@ -3,12 +3,6 @@
 ## Good tutorial to install opencv in Ubuntu
 [Ubuntu 20.04搭建OpenCV 4.5.0 & C++环境](https://blog.csdn.net/weixin_44796670/article/details/115900538)
 
-## Docker
-If you are running behind proxy then,
-1. add following command or line in /etc/default/docker file,
-2. export http_proxy=<YOUR_PROXY>
-3. service docker restart
-
 ## Cool profiles of Github
 1. [如何拥有一款有特色的 Github Profile？](https://cloud.tencent.com/developer/article/2047199)
 2. [Github 首页美化教程 —— 美，是第一生产力](https://blog.csdn.net/weixin_50915462/article/details/119988939)
