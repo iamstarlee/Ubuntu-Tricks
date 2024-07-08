@@ -1,3 +1,8 @@
+## How can I find out my user name?
+```bash
+whoami
+```
+
 ## [在服务器的docker里 装anacond3深度学习环境的全流程超基础](https://www.cnblogs.com/xiaoli1996/p/15959469.html)
 
 ## Good tutorial to install opencv in Ubuntu
