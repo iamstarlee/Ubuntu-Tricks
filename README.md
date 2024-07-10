@@ -1,4 +1,4 @@
-# 17. 将远端仓库同步到本地：git fetch + git merge == git pull
+## 17. 将远端仓库同步到本地：git fetch + git merge == git pull
 
 ## 16. [Nvidia-CUDA Onnxruntime using c++](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cc)
 
