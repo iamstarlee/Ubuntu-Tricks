@@ -1,3 +1,5 @@
+# 17. 将远端仓库同步到本地：git fetch + git merge == git pull
+
 ## 16. [Nvidia-CUDA Onnxruntime using c++](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cc)
 
 ## 15. [ONNX的算子列表](https://github.com/onnx/onnx/blob/f2daca5e9b9315a2034da61c662d2a7ac28a9488/docs/Operators.md)
