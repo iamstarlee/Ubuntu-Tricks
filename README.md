@@ -1,3 +1,9 @@
+
+## 18. Ubuntu文件或文件夹有锁
+```bash
+sudo chmod -R 777 文件夹或文件的路径
+```
+
 ## 17. 将远端仓库同步到本地：git fetch + git merge == git pull
 
 ## 16. [Nvidia-CUDA Onnxruntime using c++](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html#cc)
