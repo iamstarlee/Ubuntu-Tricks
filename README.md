@@ -1,3 +1,7 @@
+## 19. Ubuntu配置软链接
+```bash
+sudo ln -s /cuda/cuda118 /usr/local/cuda
+```
 
 ## 18. Ubuntu文件或文件夹有锁
 ```bash
