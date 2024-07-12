@@ -1,3 +1,11 @@
+## 21. Ubuntu下的文件解压
+```bash
+tar -xvJf xxx.tar.xz
+```
+```bash
+tar -zxvf xxx.tgz
+```
+
 ## 20. [Onnxruntime c++ with CUDA](https://onnxruntime.ai/docs/execution-providers/CUDA-ExecutionProvider.html)
 
 ## 19. Ubuntu配置软链接
