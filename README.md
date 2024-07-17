@@ -1,3 +1,5 @@
+## 22. Use `nproc` to know the number of cpu cores, or use `make -j${nproc}`
+
 ## 21. Ubuntu下的文件解压
 ```bash
 tar -xvJf xxx.tar.xz
