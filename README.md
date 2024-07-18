@@ -1,3 +1,6 @@
+## 23. [How does nn.Embedding work?](https://discuss.pytorch.org/t/how-does-nn-embedding-work/88518)
+关于torch.nn.Embedding通透的解释
+
 ## 22. Use `nproc` to know the number of cpu cores, or use `make -j${nproc}`
 
 ## 21. Ubuntu下的文件解压
