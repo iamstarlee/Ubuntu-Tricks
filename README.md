@@ -1,3 +1,5 @@
+## 24. [Feature Selection Techniques in Machine Learning](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
+
 ## 23. [How does nn.Embedding work?](https://discuss.pytorch.org/t/how-does-nn-embedding-work/88518)
 关于torch.nn.Embedding通透的解释
 
