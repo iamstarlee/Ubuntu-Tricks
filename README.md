@@ -1,3 +1,9 @@
+## 25  off-the-shelf
+
+<center>
+    <img src="https://github.com/user-attachments/assets/9bb4d2cb-37b0-4842-8de1-2bb979fe94ba" alt="example">
+</center>
+
 ## 24. [Feature Selection Techniques in Machine Learning](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
 
 ## 23. [How does nn.Embedding work?](https://discuss.pytorch.org/t/how-does-nn-embedding-work/88518)
