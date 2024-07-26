@@ -70,9 +70,12 @@ whoami
 > If you have parameters in your model, which should be saved and restored in the state_dict, but not trained by the optimizer, you should register them as buffers.
 Buffers won’t be returned in model.parameters(), so that the optimizer won’t have a change to update them.
 
-## 8. pip下载指定镜像地址，
-```
+## 8. pip下载指定镜像地址，或者直接设置清华源
+```bash
 pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
 ## 7. python导入其他文件夹中的包
