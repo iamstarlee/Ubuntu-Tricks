@@ -1,3 +1,8 @@
+## 27. 安装缺少依赖
+```bash
+sudo apt-get -f install
+```
+
 ## 26. numpy setting
 ```python
 import numpy as np
