@@ -25,6 +25,6 @@ Ubuntu 每个版本都有它的代号和版本号。版本号采用 年份.月�
 PS：
 - LTS是 Long-Term Support 的缩写，即长期支持。
 - EOL 是 End of Life 的缩写，即该版本的结束支持日期。
-- lsb_release -cs is helpful sometimes.
+- `lsb_release -cs` is helpful sometimes.
 
 参考：[Ubuntu版本](https://getiot.tech/zh/ubuntu/ubuntu-versions/)
