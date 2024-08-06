@@ -1,3 +1,9 @@
+## 29. Ubuntu终端的复制粘贴
+```bash
+Ctrl + Shift + C
+Ctrl + Shift + V
+```
+
 ## 28. ubuntu安装卸载软件
 ```bash
 sudo dpkg -i xxx.deb
