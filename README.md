@@ -1,3 +1,8 @@
+## 31. 多线程编译
+```bash
+make -j`nproc`
+```
+
 ## 30. 用清华源下载特定包或者一定范围的包
 ```bash
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  " pyqtwebengine&lt<5.13"
