@@ -1,3 +1,9 @@
+## 30. 用清华源下载特定包或者一定范围的包
+```bash
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  " pyqtwebengine&lt<5.13"
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple  pathlib
+```
+
 ## 29. Ubuntu终端的复制粘贴
 ```bash
 Ctrl + Shift + C
