@@ -1,3 +1,9 @@
+## 28. ubuntu安装卸载软件
+```bash
+sudo dpkg -i xxx.deb
+sudo dpkg -r xxx
+```
+
 ## 27. 安装缺少依赖
 ```bash
 sudo apt-get -f install
