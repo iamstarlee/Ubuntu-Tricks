@@ -1,3 +1,8 @@
+## 33. Look for version of Jetson Xavier NX
+```bash
+sudo apt-cache show nvidia-jetpack
+```
+
 ## 32. Openpose
 [Webcam](https://medium.com/pixel-wise/real-time-pose-estimation-in-webcam-using-openpose-python-2-3-opencv-91af0372c31c)
 
