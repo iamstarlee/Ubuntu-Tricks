@@ -1,3 +1,16 @@
+## 34. Windows与Linux系统在同一个局域网下互传文件
+```bash
+# 复制 Windows 文件到 Linux
+scp D:\data\1.txt root@192.168.88.161:/root/data
+# 复制 Windows 目录到 Linux（记得加 -r）
+scp -r D:\data root@192.168.88.161:/root/data
+ 
+# 复制 Linux 文件到 Windows
+scp root@192.168.88.161:/root/data/1.txt D:\data
+# 复制 Linux 目录到 Windows（记得加 -r）
+scp -r root@192.168.88.161:/root/data D:\data
+```
+
 ## 33. Look for version of Jetson Xavier NX
 ```bash
 sudo apt-cache show nvidia-jetpack
