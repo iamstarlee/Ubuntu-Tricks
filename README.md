@@ -1,3 +1,8 @@
+## 35. 激活灵汐
+```bash
+source lyngor1.17/bin/activate
+```
+
 ## 34. Windows与Linux系统在同一个局域网下互传文件
 ```bash
 # 复制 Windows 文件到 Linux
