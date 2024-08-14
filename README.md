@@ -1,3 +1,7 @@
+## 37. Windows tricks 设置开机自启
+1. Win + r
+2. shell:startup
+
 ## 36 创建软连接！
 ```bash
 ln -sf ../COCO/coco-pose ./dataset/coco-pose (后面dataset里面没有coco-pose，软连接会从前面链接一个coco-pose过来)
