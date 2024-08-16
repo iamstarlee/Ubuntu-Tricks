@@ -1,6 +1,7 @@
 ## 37. Windows tricks 设置开机自启
 1. Win + r
 2. shell:startup
+3. 把快捷方式拖进来
 
 ## 36 创建软连接！
 ```bash
