@@ -1,3 +1,9 @@
+## 38. Ubuntu 查看源
+```bash
+cat /etc/apt/sources.list
+```
+cat（英文全拼：concatenate）命令用于连接文件并打印到标准输出设备上，它的主要作用是用于查看和连接文件。
+
 ## 37. Windows tricks 设置开机自启
 1. Win + r
 2. shell:startup
