@@ -1,3 +1,16 @@
+## 39. 打印模型sequential的中间结果
+```python
+def printInfo(self):
+    x = torch.rand([3,512,1,1])
+    for name, module in self.fc.named_children():
+        x = module(x)
+        if isinstance(module,nn.Upsample):
+            print("Upsample({}) : {}".format(name,x.shape))
+        elif isinstance(module,nn.Conv2d):
+            print("Conv2d({}) : {}".format(name,x.shape))
+
+```
+
 ## 38. Ubuntu 查看源
 ```bash
 cat /etc/apt/sources.list
