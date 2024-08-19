@@ -1,3 +1,8 @@
+## 40. 同时unzip多个zip文件
+```bash
+for file in train*.zip; do unzip "$file" -d /path/to/destination; done
+```
+
 ## 39. 打印模型sequential的中间结果
 ```python
 def printInfo(self):
