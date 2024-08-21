@@ -1,4 +1,4 @@
-model is DetectionModel(
+model is PoseModel(
   (model): Sequential(
     (0): Conv(
       (conv): Conv2d(3, 32, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
@@ -262,7 +262,7 @@ model is DetectionModel(
         )
       )
     )
-    (22): Detect(
+    (22): Pose(
       (cv2): ModuleList(
         (0): Sequential(
           (0): Conv(
@@ -316,7 +316,7 @@ model is DetectionModel(
             (bn): BatchNorm2d(128, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
             (act): SiLU(inplace=True)
           )
-          (2): Conv2d(128, 80, kernel_size=(1, 1), stride=(1, 1))
+          (2): Conv2d(128, 1, kernel_size=(1, 1), stride=(1, 1))
         )
         (1): Sequential(
           (0): Conv(
@@ -329,7 +329,7 @@ model is DetectionModel(
             (bn): BatchNorm2d(128, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
             (act): SiLU(inplace=True)
           )
-          (2): Conv2d(128, 80, kernel_size=(1, 1), stride=(1, 1))
+          (2): Conv2d(128, 1, kernel_size=(1, 1), stride=(1, 1))
         )
         (2): Sequential(
           (0): Conv(
@@ -342,11 +342,52 @@ model is DetectionModel(
             (bn): BatchNorm2d(128, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
             (act): SiLU(inplace=True)
           )
-          (2): Conv2d(128, 80, kernel_size=(1, 1), stride=(1, 1))
+          (2): Conv2d(128, 1, kernel_size=(1, 1), stride=(1, 1))
         )
       )
       (dfl): DFL(
         (conv): Conv2d(16, 1, kernel_size=(1, 1), stride=(1, 1), bias=False)
+      )
+      (cv4): ModuleList(
+        (0): Sequential(
+          (0): Conv(
+            (conv): Conv2d(128, 51, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (bn): BatchNorm2d(51, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
+            (act): SiLU(inplace=True)
+          )
+          (1): Conv(
+            (conv): Conv2d(51, 51, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (bn): BatchNorm2d(51, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
+            (act): SiLU(inplace=True)
+          )
+          (2): Conv2d(51, 51, kernel_size=(1, 1), stride=(1, 1))
+        )
+        (1): Sequential(
+          (0): Conv(
+            (conv): Conv2d(256, 51, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (bn): BatchNorm2d(51, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
+            (act): SiLU(inplace=True)
+          )
+          (1): Conv(
+            (conv): Conv2d(51, 51, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (bn): BatchNorm2d(51, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
+            (act): SiLU(inplace=True)
+          )
+          (2): Conv2d(51, 51, kernel_size=(1, 1), stride=(1, 1))
+        )
+        (2): Sequential(
+          (0): Conv(
+            (conv): Conv2d(512, 51, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (bn): BatchNorm2d(51, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
+            (act): SiLU(inplace=True)
+          )
+          (1): Conv(
+            (conv): Conv2d(51, 51, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (bn): BatchNorm2d(51, eps=0.001, momentum=0.03, affine=True, track_running_stats=True)
+            (act): SiLU(inplace=True)
+          )
+          (2): Conv2d(51, 51, kernel_size=(1, 1), stride=(1, 1))
+        )
       )
     )
   )
