@@ -1,7 +1,12 @@
-## wget安装anaconda3
+## Ubuntu环境配置
+1. wget安装anaconda3
 ```bash
 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 bash Anaconda3-5.3.1-Linux-x86_64.sh
+```
+2. pip安装torch2.3.0+cu121和torchvision0.18.0+cu121
+```bash
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
 ```
 
 ## 41. 查看内存和磁盘空间
