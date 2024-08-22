@@ -1,3 +1,9 @@
+## wget安装anaconda3
+```bash
+wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh
+bash Anaconda3-5.3.1-Linux-x86_64.sh
+```
+
 ## 41. 查看内存和磁盘空间
 ```bash
 free -m
