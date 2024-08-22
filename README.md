@@ -1,3 +1,9 @@
+## 41. 查看内存和磁盘空间
+```bash
+free -m
+df -h
+```
+
 ## 40. 同时unzip多个zip文件
 ```bash
 for file in train*.zip; do unzip "$file" -d /path/to/destination; done
