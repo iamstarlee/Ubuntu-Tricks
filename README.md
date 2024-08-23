@@ -2,6 +2,9 @@
 ```bash
 conda config --set auto_activate_base false
 ```
+![image](https://github.com/user-attachments/assets/2f38c918-a877-4ac5-bde9-c66e14493228)
+![image](https://github.com/user-attachments/assets/a33231e9-e9ba-4afd-ade1-198e3a1d8851)
+
 
 ## 42. Ubuntu环境配置
 1. wget安装anaconda3
