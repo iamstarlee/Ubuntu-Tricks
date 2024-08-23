@@ -1,4 +1,9 @@
-## Ubuntu环境配置
+## 43. 关闭anaconda自动激活base环境导致环境有俩括号
+```bash
+conda config --set auto_activate_base false
+```
+
+## 42. Ubuntu环境配置
 1. wget安装anaconda3
 ```bash
 wget https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh
