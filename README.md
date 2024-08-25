@@ -1,3 +1,8 @@
+## 44. zip and unzip in ubuntu
+```bash
+zip -r my_folder.zip my_folder
+```
+
 ## 43. 关闭anaconda自动激活base环境导致环境有俩括号
 ```bash
 conda config --set auto_activate_base false
