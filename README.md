@@ -1,3 +1,13 @@
+## 45. git撤回
+撤回commit
+```bash
+git reset --soft HEAD^
+```
+撤回add
+```bash
+git reset --hard HEAD^
+```
+
 ## 44. zip and unzip in ubuntu
 ```bash
 zip -r my_folder.zip my_folder
