@@ -1,3 +1,17 @@
+## 46. git撤回撤回
+查看log
+```bash
+git reflog
+```
+回到特定commit
+```bash
+git reset --hard commitid
+```
+or
+```bash
+git reset --hard HEAD@{2} # {}中表示的是结点的序号
+```
+
 ## 45. git撤回
 撤回commit
 ```bash
