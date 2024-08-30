@@ -24,7 +24,8 @@ git reset --hard HEAD^
 
 ## 44. zip and unzip in ubuntu
 ```bash
-zip -r my_folder.zip my_folder
+zip -r file.zip folder
+unzip file.zip -d folder
 ```
 
 ## 43. 关闭anaconda自动激活base环境导致环境有俩括号
