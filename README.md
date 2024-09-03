@@ -1,3 +1,9 @@
+## 47 获取sequential的模组名字
+```bash
+module = Sequential()
+names = module.__class__.__nmae__
+```
+
 ## 46. git撤回撤回
 查看log
 ```bash
