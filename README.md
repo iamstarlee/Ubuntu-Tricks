@@ -1,3 +1,9 @@
+## 48. Windows 查看文件夹中的所有文件信息
+```bash
+dir /b 查看当前路径下的所有文件和文件夹
+dir /b /s 还可以查看子目录下的文件
+```
+
 ## 47 获取sequential的模组名字
 ```bash
 module = Sequential()
