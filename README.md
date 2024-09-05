@@ -1,3 +1,7 @@
+## torch.to(device)
+```bash
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+```
 ## 48. Windows 查看文件夹中的所有文件信息
 ```bash
 dir /b 查看当前路径下的所有文件和文件夹
