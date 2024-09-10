@@ -1,3 +1,8 @@
+## 51. Half and Float dtype
+Half means dtype = torch.float16
+while,
+Float means dtype = torch.float32
+
 ## 50. What does 'register_buffer' do ?
 If you have parameters in your model, which should be saved and restored in the state_dict, but not trained by the optimizer, you should register them as buffers.
 
