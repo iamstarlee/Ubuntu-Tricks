@@ -1,4 +1,7 @@
-## torch.to(device)
+## 50. What does 'register_buffer' do ?
+If you have parameters in your model, which should be saved and restored in the state_dict, but not trained by the optimizer, you should register them as buffers.
+
+## 49. torch.to(device)
 ```bash
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 ```
