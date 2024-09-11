@@ -1,3 +1,8 @@
+## 52. import os重命名
+```bash
+os.rename(old_file_path, new_file_path)
+```
+
 ## 51. Half and Float dtype
 Half means dtype = torch.float16
 while,
