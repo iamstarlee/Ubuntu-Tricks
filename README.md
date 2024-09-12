@@ -111,9 +111,12 @@ cat（英文全拼：concatenate）命令用于连接文件并打印到标准输
 2. shell:startup
 3. 把快捷方式拖进来
 
-## 36 创建软连接！
+## 36 创建软连接和删除软连接！
 ```bash
 ln -sf ../COCO/coco-pose ./dataset/coco-pose (后面dataset里面没有coco-pose，软连接会从前面链接一个coco-pose过来)
+```
+···bash
+unlink ./dataset/coco-pose #最好不用rm删
 ```
 
 ## 35. 激活灵汐
