@@ -1,3 +1,17 @@
+## 54. Ubuntu统计文件夹内的文件数量
+- 统计当前目录下文件的个数（不包括目录）
+```bash
+ls -l | grep "^-" | wc -l
+```
+- 统计当前目录下文件的个数（包括目录）
+```bash
+ls -lR | grep "^-" | wc -l
+```
+- 查看某目录下文件夹(目录)的个数（包括子目录）
+```bash
+ls -lR | grep "^d" | wc -l
+```
+
 ## 53. 下划线在python中的用途
 [Python 中下划线的 5 种含义](https://www.runoob.com/w3cnote/python-5-underline.html#:~:text=%E5%BD%93%E6%B6%89%E5%8F%8A%E5%88%B0%E5%8F%98%E9%87%8F%E5%92%8C,PEP%208%E4%B8%AD%E6%9C%89%E5%AE%9A%E4%B9%89%E3%80%82)
 
