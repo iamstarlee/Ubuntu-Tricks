@@ -1,3 +1,11 @@
+## 55. Linux查看进程
+htop 是一个 Linux 下的交互式的进程浏览器，可以用来替换Linux下的top命令。
+```bash
+apt-get install htop
+htop
+```
+
+
 ## 54. Ubuntu统计文件夹内的文件数量
 - 统计当前目录下文件的个数（不包括目录）
 ```bash
