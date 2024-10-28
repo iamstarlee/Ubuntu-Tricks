@@ -1,3 +1,6 @@
+查看Ubuntu版本号：lsb_release -a  
+![image](https://github.com/user-attachments/assets/a1ec08a2-44d9-4e94-b84b-aff42c85d3ae)
+
 Ubuntu 每六个月会发布一个新版本，根据计划安排，通常在每年的四月和十月发布。其中，每两年会发布一个 LTS 长期支持版本。普通版本一般只支持 9 个月，但 LTS 版本一般会提供长达 5 年的支持。
 
 Ubuntu 每个版本都有它的代号和版本号。版本号采用 年份.月份 的格式，例如 2021 年 4 月发布的版本号为 21.04。而代号则采用 “形容词 + 动物名称” 的形式，例如 Ubuntu 14.04 的代号为 “Trusty Tahr”，即可靠的塔尔羊。
