@@ -6,7 +6,7 @@
 1. 进入到C:\Users\dell\.ssh
 2. 右键打开Git Bash Here
 3. 输入ssh-keygen -t rsa
-4. 直接enter enter enter
+4. 直接enter enter enter  
 ![image](https://github.com/user-attachments/assets/25d7c83a-9b0c-46e4-82a5-9922c5d961ff)
 5. 此时C:\Users\dell\.ssh目录下会生成一个id_rsa文件和一个id_rsa.pub文件
 
