@@ -1,4 +1,7 @@
-## python格式化输出f-string
+## 57. 环境变量的应用
+在运行 Python 脚本的命令前加上环境变量设置，这样环境变量会应用于该次运行！
+
+## 56. python格式化输出f-string
 给所有keys值添加backbone前缀！
 ```python
 renamed_dict = {f'backbone.{k}': v 
