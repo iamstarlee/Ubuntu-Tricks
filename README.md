@@ -1,3 +1,10 @@
+## python格式化输出f-string
+给所有keys值添加backbone前缀！
+```python
+renamed_dict = {f'backbone.{k}': v 
+                for k, v in pretrained_dict.items()}
+```
+
 ## 55. Linux查看进程
 htop 是一个 Linux 下的交互式的进程浏览器，可以用来替换Linux下的top命令。
 ```bash
