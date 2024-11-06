@@ -1,5 +1,16 @@
+## 58. torch.where(condition, input, other)
+根据判断条件选择替换元素  
+Return a tensor of elements selected from either input or other, depending on condition.  
+如果x的元素大于0，就替换为1.0，否则就替换为0.0
+```python
+torch.where(x > 0, 1.0, 0.0)
+```
+
 ## 57. 环境变量的应用
 在运行 Python 脚本的命令前加上环境变量设置，这样环境变量会应用于该次运行！
+```python
+CUDA_VISIBLE_DEVICE=0 python main.py
+```
 
 ## 56. python格式化输出f-string
 给所有keys值添加backbone前缀！
