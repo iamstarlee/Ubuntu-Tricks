@@ -1,3 +1,14 @@
+## 59 python print带颜色输出
+```python
+print("\n\033[1;33;44m温馨提示，head部分没有载入是正常现象，Backbone部分没有载入是错误的。\033[0m")
+```
+- \033 This is the escape character, which begins the ANSI color code sequence.
+- 1 : This specifies bold text.
+- 33 : This sets the text color to yellow.
+- 44 : This sets the background color to blue.
+- m : This marks the end of the color code and applies the style.
+- \033[0m: This resets the color formatting back to the default after the message, ensuring that subsequent text is not affected by this style.
+
 ## 58. torch.where(condition, input, other)
 根据判断条件选择替换元素  
 Return a tensor of elements selected from either input or other, depending on condition.  
