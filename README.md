@@ -1,3 +1,19 @@
+## 60. 导出和安装anaconda环境
+使用pip
+```bash
+pip freeze > requirements.txt
+```
+```bash
+pip install -r requirements.txt
+```
+使用conda
+```bash
+conda env export > environment.yaml
+```
+```bash
+conda env create -f environment.yaml
+```
+
 ## 59 python print带颜色输出
 ```python
 print("\n\033[1;33;44m温馨提示，head部分没有载入是正常现象，Backbone部分没有载入是错误的。\033[0m")
