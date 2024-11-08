@@ -175,6 +175,10 @@ ln -sf ../COCO/coco-pose ./dataset/coco-pose (后面dataset里面没有coco-pose
 ```bash
 unlink ./dataset/coco-pose #最好不用rm删
 ```
+## 36.5 python3软链接到python
+```bash
+ln -s /usr/bin/python3 /usr/bin/python
+```
 
 ## 35. 激活灵汐
 ```bash
