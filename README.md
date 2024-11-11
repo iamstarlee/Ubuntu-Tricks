@@ -1,4 +1,10 @@
-## 61. 杀死stopped进程
+## 62. nohup
+```bash
+tail -1000 nohup.out
+```
+查看nohup.out最后1000行数据
+
+## 61. 杀死stopped process
 ```bash
 kill -9 `jobs -ps`
 ```
