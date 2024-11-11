@@ -1,3 +1,9 @@
+## 61. 杀死stopped进程
+```bash
+kill -9 `jobs -ps`
+```
+jobs -ps lists the process IDs (-p) of the stopped (-s) jobs.
+
 ## 60. 导出和安装anaconda环境
 使用pip
 ```bash
