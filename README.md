@@ -1,6 +1,7 @@
 ## 62. nohup
 ```bash
-tail -1000 nohup.out
+tail -1000 nohup.out  (查看最后1000行日志文本）　
+tail -ｆ nohup.out   （监控日志打印）
 ```
 查看nohup.out最后1000行数据
 
