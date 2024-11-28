@@ -1,3 +1,9 @@
+## 63. !pip install -q xxx
+```python
+-q: stands for 'quiet mode', which suppresses most of the output during installation.
+!: This is used to run shell commands from within a Jupyter notebook.
+```
+
 ## 62. nohup
 ```bash
 tail -1000 nohup.out  (查看最后1000行日志文本）　
