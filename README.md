@@ -1,5 +1,5 @@
 ## 63. !pip install -q xxx
-```python
+```bash
 -q: stands for 'quiet mode', which suppresses most of the output during installation.
 !: This is used to run shell commands from within a Jupyter notebook.
 ```
