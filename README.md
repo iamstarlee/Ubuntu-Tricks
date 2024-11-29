@@ -321,8 +321,8 @@ sudo chmod -R 777 文件夹或文件的路径
 ## 15. [ONNX的算子列表](https://github.com/onnx/onnx/blob/f2daca5e9b9315a2034da61c662d2a7ac28a9488/docs/Operators.md)
 
 ## 14. 国内NVIDIA镜像地址
-[1. https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md](https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md)  
-[2. https://docker.aityp.com/r/docker.io/nvidia/cuda](https://docker.aityp.com/r/docker.io/nvidia/cuda)
+1. [https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md](https://gitlab.com/nvidia/container-images/cuda/blob/master/doc/supported-tags.md)  
+2. [https://docker.aityp.com/r/docker.io/nvidia/cuda](https://docker.aityp.com/r/docker.io/nvidia/cuda)
 
 ## 13. How can I find out my user name?
 ```bash
