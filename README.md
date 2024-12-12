@@ -144,13 +144,7 @@ git reset --hard HEAD^
 ```
 
 ## 44. zip and unzip in ubuntu
-```bash
-zip -r file.zip folder
-unzip file.zip -d folder
-```
-排除某个文件或文件夹时，加-x
--x的路径是根据当前所在地址的相对路径
--x排除文件夹下所有文件时后面要加 *，文件则直接指定文件名
+见md文件
 
 ## 43. 关闭anaconda自动激活base环境导致环境有俩括号
 ```bash
