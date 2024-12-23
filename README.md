@@ -1,4 +1,4 @@
-## 多卡推理
+## 64. 多卡推理
 问：ValueError: Cannot assign non-leaf Tensor to parameter 'weight'. Model parameters must be created explicitly. To express 'weight' as a function of another Tensor, compute the value in the forward() method.
 答：指定一张显卡：CUDA_VISIBLE_DEVICES=0 python predict.py
 
