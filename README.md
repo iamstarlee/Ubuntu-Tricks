@@ -1,3 +1,7 @@
+## 多卡推理
+问：ValueError: Cannot assign non-leaf Tensor to parameter 'weight'. Model parameters must be created explicitly. To express 'weight' as a function of another Tensor, compute the value in the forward() method.
+答：指定一张显卡：CUDA_VISIBLE_DEVICES=0 python predict.py
+
 ## 63. !pip install -q xxx
 ```bash
 -q: stands for 'quiet mode', which suppresses most of the output during installation.
