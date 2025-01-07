@@ -166,7 +166,7 @@ bash Anaconda3-5.3.1-Linux-x86_64.sh
 ```
 2. pip安装torch2.3.0+cu121和torchvision0.18.0+cu121
 ```bash
-pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121
+pip install torch==2.3.0+cu121 torchvision==0.18.0+cu121 torchaudio==2.3.0+cu121 --index-url https://download.pytorch.org/whl/cu121
 ```
 ```bash
 pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
