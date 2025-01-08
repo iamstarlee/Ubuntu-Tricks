@@ -1,5 +1,18 @@
+## 65. WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7f891079f160>: Failed to establish a new connection: [Errno 111] 拒绝连接'))': /simple/ninja/
+先
+```python
+export http_proxy=''
+export https_proxy=''
+```
+后
+```python
+unset all_proxy
+unset ALL_PROXY
+```
+
+
 ## 64. 多卡推理
-问：ValueError: Cannot assign non-leaf Tensor to parameter 'weight'. Model parameters must be created explicitly. To express 'weight' as a function of another Tensor, compute the value in the forward() method.
+问：ValueError: Cannot assign non-leaf Tensor to parameter 'weight'. Model parameters must be created explicitly. To express 'weight' as a function of another Tensor, compute the value in the forward() method.  
 答：指定一张显卡：CUDA_VISIBLE_DEVICES=0 python predict.py
 
 ## 63. !pip install -q xxx
