@@ -1,3 +1,11 @@
+## 66. 添加.gitignore文件可以忽略掉不想上传的更改
+```bash
+target          //忽略这个target目录
+angular.json    //忽略这个angular.json文件
+log/*           //忽略log下的所有文件
+css/*.css       //忽略css目录下的.css文件
+```
+
 ## 65. WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7f891079f160>: Failed to establish a new connection: [Errno 111] 拒绝连接'))': /simple/ninja/
 先
 ```python
