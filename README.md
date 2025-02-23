@@ -1,3 +1,14 @@
+## ssh与https之间的切换
+```bash
+# using https instead of ssh
+git config --global url."https://github.com/".insteadOf git@github.com:
+git config --global url."https://".insteadOf git://
+
+# using ssh instead of https
+git config --global url."git@github.com:".insteadOf https://github.com/
+git config --global url."git://".insteadOf https://
+```
+
 ## 66. 添加.gitignore文件可以忽略掉不想上传的更改
 ```bash
 target          //忽略这个target目录
