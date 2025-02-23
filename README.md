@@ -1,3 +1,31 @@
+## git清理untrack文件
+用该命令删除的文件无法找回，但如果git add过就不会被删掉。
+参数说明：
+- `n`:显示将要被删除的文件以及目录。
+- `d`:删除未被添加到git路径中的文件以及目录（将.gitignore文件标记的文件全部删除）。
+- `f`:强制执行（只会删除文件）。
+- `x`:删除没有被track的文件。
+```bash
+//使用帮助文档 (git clean)
+git help clean
+
+//演习示范，提前告诉你那些文件会被删除，不会真正删除
+git clean -n
+
+//删除当前目录下所有没有track过的文件，.gitignore文件里指定的不会删除。
+git clean -f
+
+//删除指定路径下的没有被track过的文件
+git clean -f <path>
+
+//强制删除所有没有被track过的文件和文件夹，
+git clean -df
+
+//强制删除所有没有被track过的文件（.gitignore文件里指定的也不能避免）
+git clean -fx
+
+```
+
 ## ssh与https之间的切换
 ```bash
 # using https instead of ssh
