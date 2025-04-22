@@ -1,4 +1,10 @@
-## git清理untrack文件
+## 69. Ubuntu修改~/.config/pip/pip.conf或~/miniconda3/envs/pt39/pip.conf源
+```python
+pip config set global.index-url https://pypi.ngc.nvidia.com
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+## 68. git清理untrack文件
 用该命令删除的文件无法找回，但如果git add过就不会被删掉。
 参数说明：
 - `n`:显示将要被删除的文件以及目录。
@@ -26,7 +32,7 @@ git clean -fx
 
 ```
 
-## ssh与https之间的切换
+## 67. ssh与https之间的切换
 ```bash
 # using https instead of ssh
 git config --global url."https://github.com/".insteadOf git@github.com:
