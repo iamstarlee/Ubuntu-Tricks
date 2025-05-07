@@ -1,3 +1,11 @@
+## 70 Huggingface下载超时
+```bash
+You can solve this problem by setting the Hugging Face endpoint in the environment.
+For example, in a Python script: os.environ["HF_ENDPOINT"] = "https://hf-mirror.com".
+Or in the terminal: HF_ENDPOINT=https://hf-mirror.com python xxx.py.
+Reference link: https://hf-mirror.com/
+```
+
 ## 69. Ubuntu修改~/.config/pip/pip.conf或~/miniconda3/envs/pt39/pip.conf源
 ```python
 pip config set global.index-url https://pypi.ngc.nvidia.com
