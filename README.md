@@ -1,10 +1,10 @@
-## 71 Word复选框打勾和打叉
+## 71. Word复选框打勾和打叉
 ```bash
 数字2611 + (快捷键ALT+X)
 数字2612 + (快捷键ALT+X)
 ```
 
-## 70 Huggingface下载超时
+## 70. Huggingface下载超时
 ```bash
 You can solve this problem by setting the Hugging Face endpoint in the environment.
 For example, in a Python script: os.environ["HF_ENDPOINT"] = "https://hf-mirror.com".
