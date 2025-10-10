@@ -1,3 +1,8 @@
+## 72. Chromium Downloading in Nvidia Jetson Orin Nx
+```bash
+sudo apt install chromium-browser
+```
+
 ## 71. Word复选框打勾和打叉
 ```bash
 数字2611 + (快捷键ALT+X)
