@@ -1,3 +1,8 @@
+## 73. ffmpeg 视频转图片
+```bash
+ffmpeg -i output.mp4 -vf "fps=30" output_images/image%04d.png
+```
+
 ## 72. Chromium Downloading in Nvidia Jetson Orin Nx
 ```bash
 sudo apt install chromium-browser
