@@ -1,6 +1,6 @@
 ## 74. ffmpeg 图片转视频
 ```python
-ffmpeg -framerate 25 -i image%04d.png -c:v libx264 -pix_fmt yuv420p out-bird.mp4
+ffmpeg -framerate 25 -i "image%04d.png" -c:v libx264 -pix_fmt yuv420p out-bird.mp4
 ```
 
 ## 73. ffmpeg 视频转图片
