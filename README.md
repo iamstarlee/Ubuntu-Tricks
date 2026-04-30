@@ -1,3 +1,8 @@
+## 75. 生成file_list.txt
+```python
+ls -1 *.png | sed "s/^/file '/;s/$/'/" > file_list.txt
+```
+
 ## 74. ffmpeg 图片转视频
 ```python
 ffmpeg -framerate 25 -i "image%04d.png" -c:v libx264 -pix_fmt yuv420p out-bird.mp4
