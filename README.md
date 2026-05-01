@@ -7,6 +7,10 @@ ls -1 *.png | sed "s/^/file '/;s/$/'/" > file_list.txt
 ```python
 ffmpeg -framerate 25 -i "image%04d.png" -c:v libx264 -pix_fmt yuv420p out-bird.mp4
 ```
+如果图片不是严格连续编号，可以用 glob：
+```python
+ffmpeg -framerate 30 -pattern_type glob -i "*.png" -c:v libx264 -pix_fmt yuv420p output.mp4
+```
 
 ## 73. ffmpeg 视频转图片
 ```bash
