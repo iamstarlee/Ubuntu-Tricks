@@ -1,3 +1,13 @@
+## 76. 通过VS Code上传大型文件查看进度
+### a.不知道文件名
+```python
+watch -n 1 'ls -lht | head -20'
+```
+### b.知道文件名
+```python
+watch -n 1 'ls -lh data.zip; du -h data.zip'
+```
+
 ## 75. 生成file_list.txt
 ```python
 ls -1 *.png | sed "s/^/file '/;s/$/'/" > file_list.txt
