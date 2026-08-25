@@ -1,3 +1,19 @@
+
+## 77. 将文件夹中所有一级文件夹压缩为zip
+```bash
+root="/data/lxx/datasets/hangzhou-data/20260819_dusk/to_label"
+
+for dir in "$root"/*/; do
+    [ -d "$dir" ] || continue
+
+    name=$(basename "$dir")
+    (
+        cd "$root" || exit
+        zip -r "${name}.zip" "$name"
+    )
+done
+```
+
 ## 76. 通过VS Code上传大型文件查看进度
 ### a.不知道文件名
 ```python
