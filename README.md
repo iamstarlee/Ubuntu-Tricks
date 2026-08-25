@@ -1,4 +1,20 @@
 
+## 78. 统计文件夹中所有一级文件夹中的图片数量
+```bash
+root="/data/lxx/datasets/hangzhou-data/20260819_dusk/to_label"
+
+for dir in "$root"/*/; do
+    [ -d "$dir" ] || continue
+
+    count=$(find "$dir" -maxdepth 1 -type f \
+        \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \
+           -o -iname "*.bmp" -o -iname "*.tif" -o -iname "*.tiff" \) \
+        | wc -l)
+
+    printf "%-50s %d\n" "$(basename "$dir")" "$count"
+done
+```
+
 ## 77. 将文件夹中所有一级文件夹压缩为zip
 ```bash
 root="/data/lxx/datasets/hangzhou-data/20260819_dusk/to_label"
