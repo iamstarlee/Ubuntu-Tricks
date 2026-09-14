@@ -1,3 +1,12 @@
+## 79. 删除WSL中的Identifier尾缀
+```bash
+find . -type f -name '*:Zone.Identifier' -delete
+```
+在复制到WSL前先对文件做以下处理：
+以后从 Windows 下载 ZIP 后，可以先右键 ZIP →“属性”→勾选“解除锁定”，再解压，通常就不会产生这些文件。也可以在 Windows PowerShell 中执行：
+```bash
+Get-ChildItem -Recurse -File | Unblock-File
+```
 
 ## 78. 统计文件夹中所有一级文件夹中的图片数量
 ```bash
