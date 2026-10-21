@@ -1,3 +1,43 @@
+## 80. 统计正负样本数量
+需要按train/序列名_neg/labels才可以：
+```
+root="/data1/Data/hangzhou-data/IxIyIt_data_It_split"
+
+find "$root" \
+    -type f \
+    -path "*/labels/*.json" \
+    -printf '%P\n' |
+awk -F/ '
+$1 ~ /^(train|val|test)$/ && $3 == "labels" {
+    if ($2 ~ /_neg$/) {
+        neg[$1]++
+        neg_total++
+    } else {
+        pos[$1]++
+        pos_total++
+    }
+}
+END {
+    printf "%-7s %12s %12s %12s\n", "划分", "正样本JSON", "负样本JSON", "合计"
+
+    for (i = 1; i <= 3; i++) {
+        part = (i == 1 ? "train" : (i == 2 ? "val" : "test"))
+
+        printf "%-7s %12d %12d %12d\n",
+               part,
+               pos[part],
+               neg[part],
+               pos[part] + neg[part]
+    }
+
+    printf "%-7s %12d %12d %12d\n",
+           "总计",
+           pos_total,
+           neg_total,
+           pos_total + neg_total
+}'
+```
+
 ## 79. 删除WSL中的Identifier尾缀
 ```bash
 find . -type f -name '*:Zone.Identifier' -delete
